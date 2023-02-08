@@ -5,7 +5,7 @@ import Button from './Button.jsx'
 const PLANS = [
   {
     id: 1,
-    image: '/single.png',
+    image: 'single.png',
     name: 'Single User',
     price: 149,
     storage: '500 GB',
@@ -14,7 +14,7 @@ const PLANS = [
   },
   {
     id: 2,
-    image: '/double.png',
+    image: 'double.png',
     name: 'Partnership',
     price: 199,
     storage: '1 TB',
@@ -23,7 +23,7 @@ const PLANS = [
   },
   {
     id: 3,
-    image: '/triple.png',
+    image: 'triple.png',
     name: 'Group Account',
     price: 299,
     storage: '5 TB',
