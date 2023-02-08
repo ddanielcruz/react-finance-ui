@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react'
 import Typed from 'typed.js'
 
+import Button from './Button.jsx'
+
 const Hero = () => {
   const ref = useRef(null)
 
@@ -28,9 +30,7 @@ const Hero = () => {
           Monitor your data analytics to increase revenue for BTC, ETH and SASS platforms!
         </p>
 
-        <button className="bg-[#00df9a] w-48 rounded-md font-medium my-6 mx-auto py-3 text-black hover:opacity-80">
-          Get Started
-        </button>
+        <Button className="mx-auto">Get Started</Button>
       </div>
     </section>
   )
